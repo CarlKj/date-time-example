@@ -27,7 +27,6 @@ let deafult = "";
 let settings = false;
 document.getElementById("settings").addEventListener('click', function () {
     document.getElementById("settingscontainer").style.display = (settings ? "none" : "flex");
-    console.log(`${(settings ? "none" : "block")}  ${settings}`)
     settings = !settings;
 });
 var body = document.getElementsByTagName('body')[0];
